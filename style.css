@@ -13,7 +13,9 @@ h1{
 }
 
 div{
-display: inline;
+  padding-bottom: 25px;
+    font-size: 30px;
+    text-align: left;
 }
 
 label{
