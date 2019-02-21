@@ -13,30 +13,33 @@ h1{
 }
 
 div{
-padding-bottom: 25px;
-font-size: 30px;
-text-align: left;
+display: inline;
 }
 
 label{
-display: inline;;
+  padding-left: .25em;
+  padding-right: .25em;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-size: 1.1em;
 }
 
 body{
-font-family: Benguiat Frisky;
+font-family: 'Benguiat Frisky', Benguiat Frisky;
 text-align: left;
-padding-top: 2em;
-padding-right: 9em;
-padding-bottom: 5em;
-padding-left: 9em;
-background-color: #00cc66;
+padding-top: 3em;
+padding-right: 5em;
+padding-left: 5em;
 }
 
 legend{
-text-align: center;
-font-size: 25px;
-font-family: cursive;
+padding: 2px;
+font-size: 1.3em;
+border: 2px solid;
 color: white;
+}
+form{
+  background-color: #00cc66;
 }
 fieldset{
 padding: 20px;
