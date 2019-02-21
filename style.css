@@ -1,11 +1,15 @@
-
-.Form{
-text-align: center;
-font: 1em Georgia, "Times New Roman", Times, serif;
-width: 550px;
-padding-left: 270px;
-padding-right: 150px;
-line-height: 1.8;
+@font-face{
+font-family: "Benguiat Frisky", Benguiat Frisky;
+}
+form{
+background-color: #00cc66;
+}
+h1{
+  text-align: center;
+  font-size: 1.6em;
+  padding-top: 6px;
+  padding-bottom: 8px
+  font-weight: bold;
 }
 
 div{
@@ -15,14 +19,12 @@ text-align: left;
 }
 
 label{
-text-align: center;
-padding-top: 40px;
-font-size: 40px;
-color: red;
+display: inline;;
 }
 
 body{
-font-family: PL Benguiat Frisky;
+font-family: Benguiat Frisky;
+text-align: left;
 padding-top: 2em;
 padding-right: 9em;
 padding-bottom: 5em;
@@ -37,24 +39,22 @@ font-family: cursive;
 color: white;
 }
 fieldset{
-padding-top: 2em;
-padding-right: 9em;
-padding-bottom: 5em;
-padding-left: 9em;
-width: 750px;
+padding: 20px;
+padding-right: .25em;
+padding-bottom: 25px;
+padding-left: .25em;
+border: 2px solid black;
+border-color: black;
 }
 
 /* Mobile first css */
 
 @media screen and (max-width: 960px) {
 body{
-  /* padding-bottom: 2%; */
-  padding-left: 9%;
-  /* padding-right: 5%; */
-  padding-top: 2%;
-  font-family: PL Benguiat Frisky;
-  width: 50%;
-  height: 2%;
+  font-size: 0.750em;
+  line-height: 1em;
+}
+form{
   background-color: #00cc66;
 }
 fieldset{
