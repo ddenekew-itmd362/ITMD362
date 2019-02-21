@@ -268,7 +268,7 @@ body{
   font-family: Arial;
   width: 50%;
   height: 2%;
-  background-color: #00C5BE;
+  background-color: #0066ff;
 }
 fieldset{
   padding-left: 20%;
@@ -290,11 +290,6 @@ footer{
 .Form{
   width: 50%;
   height: 50%;
-}
-
-img{
-  width: 100%;
-  height: auto;
 }
 label{
   text-align: center;
