@@ -80,31 +80,31 @@ footer{
 }
 label{
   text-align: center;
-  padding-top: 40px;
-  font-size: 20px;
+  padding-top: 20px;
+  font-size: 10px;
   color: red;
-  padding-left: 9px;
-  padding-right: 9px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 div{
-  padding-bottom: 25px;
-  font-size: 30px;
+  padding-bottom: 15px;
+  font-size: 20px;
   text-align: left;
 }
 .submit{
   text-align: center;
 }
 input[type="text"]{
-  width: 100%;
+  width: 50%;
 }
 input[type="email"]{
-  width: 100%;
+  width: 50%;
 }
 input[type="tel"]{
-  width: 100%;
+  width: 50%;
 }
 input[type="date"]{
-  width: 100%;
+  width: 50%;
 }
 }
 footer{
@@ -118,14 +118,14 @@ margin-top: 35px;
 margin-left: 30px;
 }
 input[type="text"]{
-width: 500px;
+width: 200px;
 }
 input[type="email"]{
-width: 500px;
+width: 200px;
 }
 input[type="tel"]{
-width: 450px;
+width: 150px;
 }
 input[type="date"]{
-width: 270px;
+width: 170px;
 }
