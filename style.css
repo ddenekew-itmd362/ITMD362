@@ -1,0 +1,131 @@
+
+.Form{
+text-align: center;
+font: 1em Georgia, "Times New Roman", Times, serif;
+width: 550px;
+padding-left: 270px;
+padding-right: 150px;
+line-height: 1.8;
+}
+
+div{
+padding-bottom: 25px;
+font-size: 30px;
+text-align: left;
+}
+
+label{
+text-align: center;
+padding-top: 40px;
+font-size: 40px;
+color: red;
+}
+
+body{
+font-family: PL Benguiat Frisky;
+padding-top: 2em;
+padding-right: 9em;
+padding-bottom: 5em;
+padding-left: 9em;
+background-color: #00cc66;
+}
+
+legend{
+text-align: center;
+font-size: 25px;
+font-family: cursive;
+color: white;
+}
+fieldset{
+padding-top: 2em;
+padding-right: 9em;
+padding-bottom: 5em;
+padding-left: 9em;
+width: 750px;
+}
+
+/* Mobile first css */
+
+@media screen and (max-width: 960px) {
+body{
+  /* padding-bottom: 2%; */
+  padding-left: 9%;
+  /* padding-right: 5%; */
+  padding-top: 2%;
+  font-family: PL Benguiat Frisky;
+  width: 50%;
+  height: 2%;
+  background-color: #00cc66;
+}
+fieldset{
+  padding-left: 20%;
+  padding-right: 2%;
+  width: 50%;
+  height: auto;
+}
+legend{
+  text-align: center;
+}
+footer{
+  text-align: center;
+  /* margin: 2%; */
+  font-weight: bolder;
+  padding-top: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.Form{
+  width: 50%;
+  height: 50%;
+}
+label{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  color: red;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+div{
+  padding-bottom: 25px;
+  font-size: 30px;
+  text-align: left;
+}
+.submit{
+  text-align: center;
+}
+input[type="text"]{
+  width: 100%;
+}
+input[type="email"]{
+  width: 100%;
+}
+input[type="tel"]{
+  width: 100%;
+}
+input[type="date"]{
+  width: 100%;
+}
+}
+footer{
+text-align: center;
+margin: 2%;
+font-weight: bolder;
+}
+.submit{
+text-align: center;
+margin-top: 35px;
+margin-left: 30px;
+}
+input[type="text"]{
+width: 500px;
+}
+input[type="email"]{
+width: 500px;
+}
+input[type="tel"]{
+width: 450px;
+}
+input[type="date"]{
+width: 270px;
+}
