@@ -1,8 +1,8 @@
 @font-face{
-font-family: "Benguiat Frisky", Benguiat Frisky;
+  font-family: "Benguiat Frisky", Benguiat Frisky;
 }
 form{
-background-color: #00cc66;
+  background-color: #00cc66;
 }
 h1{
   text-align: center;
@@ -14,8 +14,8 @@ h1{
 
 div{
   padding-bottom: 25px;
-    font-size: 30px;
-    text-align: left;
+  font-size: 30px;
+  text-align: left;
 }
 
 label{
@@ -37,10 +37,10 @@ body{
 }
 
 legend{
-padding: 2px;
-font-size: 1.3em;
-border: 2px solid;
-color: white;
+  padding: 2px;
+  font-size: 1.3em;
+  border: 2px solid;
+  color: white;
 }
 
 form{
@@ -48,13 +48,13 @@ form{
 }
 
 fieldset{
-padding: 20px;
-padding-right: .25em;
-padding-bottom: 25px;
-padding-left: .25em;
-border: 2px solid black;
-border-color: black;
-width: 750px;
+  padding: 20px;
+  padding-right: .25em;
+  padding-bottom: 25px;
+  padding-left: .25em;
+  border: 2px solid black;
+  border-color: black;
+  width: 750px;
 }
 
 /* Mobile first css */
@@ -71,6 +71,57 @@ width: 750px;
     height: 2%;
     background-color: #00cc66;
   }
-form{
-  background-color: #00cc66;
+  form{
+    background-color: #00cc66;
+  }
+  label{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color: red;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  div{
+    padding-bottom: 25px;
+    font-size: 30px;
+    text-align: left;
+  }
+  .submit{
+    text-align: center;
+  }
+  input[type="text"]{
+    width: 100%;
+  }
+  input[type="email"]{
+    width: 100%;
+  }
+  input[type="tel"]{
+    width: 100%;
+  }
+  input[type="date"]{
+    width: 100%;
+  }
+}
+footer{
+  text-align: center;
+  margin: 2%;
+  font-weight: bolder;
+}
+.submit{
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+input[type="text"]{
+  width: 500px;
+}
+input[type="email"]{
+  width: 500px;
+}
+input[type="tel"]{
+  width: 450px;
+}
+input[type="date"]{
+  width: 270px;
 }
