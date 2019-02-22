@@ -12,12 +12,6 @@ h1{
   font-weight: bold;
 }
 
-div{
-  padding-bottom: 25px;
-  font-size: 30px;
-  text-align: left;
-}
-
 label{
   padding-left: .25em;
   padding-right: .25em;
@@ -29,100 +23,54 @@ label{
 body{
   font-family: 'Benguiat Frisky', Benguiat Frisky;
   text-align: left;
-  padding-top: 2em;
-  padding-right: 9em;
-  padding-bottom: 5em;
-  padding-left: 9em;
+  padding-top: 3em;
+  padding-right: 5em;
+  padding-bottom: 3em;
+  padding-left: 5em;
   background-color: #00cc66;
 }
-
-legend{
-  padding: 2px;
-  font-size: 1.3em;
-  border: 2px solid;
-  color: white;
-}
-
-form{
-  background-color: #00cc66;
-}
-
-fieldset{
-  padding: 20px;
-  padding-right: .25em;
-  padding-bottom: 25px;
+p {
   padding-left: .25em;
-  border: 2px solid black;
-  border-color: black;
-  width: 750px;
-}
-
-/* Mobile first css */
-
-@media screen and (max-width: 960px) {
-  body{
-    font-size: 0.750em;
-    line-height: 1em;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    font-family: Benguiat Frisky;
-    width: 50%;
-    height: 2%;
-    background-color: #00cc66;
+  padding-right: .25em;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-size: 1.1em;
+  
+  legend{
+    padding: 2px;
+    font-size: 1.3em;
+    border: 2px solid;
+    color: white;
   }
+
   form{
     background-color: #00cc66;
   }
-  label{
-    text-align: center;
-    padding-top: 40px;
-    font-size: 20px;
-    color: red;
-    padding-left: 9px;
-    padding-right: 9px;
-  }
-  div{
+
+  fieldset{
+    padding: 20px;
+    padding-right: .25em;
     padding-bottom: 25px;
-    font-size: 30px;
-    text-align: left;
+    padding-left: .25em;
+    border: 2px solid black;
+    border-color: black;
+    width: 750px;
   }
-  .submit{
-    text-align: center;
-    width: 100%;
-  }
-  input[type="text"]{
-    width: 100%;
-  }
-  input[type="email"]{
-    width: 100%;
-  }
-  input[type="tel"]{
-    width: 100%;
-  }
-  input[type="date"]{
-    width: 100%;
-  }
-}
-footer{
-  text-align: center;
-  margin: 2%;
-  font-weight: bolder;
-}
-.submit{
-  text-align: center;
-  margin-top: 35px;
-  margin-left: 30px;
-}
-input[type="text"]{
-  width: 500px;
-}
-input[type="email"]{
-  width: 500px;
-}
-input[type="tel"]{
-  width: 450px;
-}
-input[type="date"]{
-  width: 270px;
-}
+
+  /* Mobile first css */
+
+  @media screen and (max-width: 960px) {
+    body{
+      font-size: 0.750em;
+      line-height: 1em;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 3%;
+      font-family: Benguiat Frisky;
+      width: 50%;
+      height: 2%;
+      background-color: #00cc66;
+    }
+    form{
+      background-color: #00cc66;
+    }
