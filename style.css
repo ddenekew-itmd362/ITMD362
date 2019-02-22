@@ -89,6 +89,7 @@ fieldset{
   }
   .submit{
     text-align: center;
+    width: 100%;
   }
   input[type="text"]{
     width: 100%;
