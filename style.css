@@ -27,11 +27,13 @@ label{
 }
 
 body{
-font-family: 'Benguiat Frisky', Benguiat Frisky;
-text-align: left;
-padding-top: 3em;
-padding-right: 5em;
-padding-left: 5em;
+  font-family: 'Benguiat Frisky', Benguiat Frisky;
+  text-align: left;
+  padding-top: 2em;
+  padding-right: 9em;
+  padding-bottom: 5em;
+  padding-left: 9em;
+  background-color: #00cc66;
 }
 
 legend{
@@ -40,9 +42,11 @@ font-size: 1.3em;
 border: 2px solid;
 color: white;
 }
+
 form{
   background-color: #00cc66;
 }
+
 fieldset{
 padding: 20px;
 padding-right: .25em;
@@ -50,15 +54,23 @@ padding-bottom: 25px;
 padding-left: .25em;
 border: 2px solid black;
 border-color: black;
+width: 750px;
 }
 
 /* Mobile first css */
 
 @media screen and (max-width: 960px) {
-body{
-  font-size: 0.750em;
-  line-height: 1em;
-}
+  body{
+    font-size: 0.750em;
+    line-height: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    font-family: Benguiat Frisky;
+    width: 50%;
+    height: 2%;
+    background-color: #00cc66;
+  }
 form{
   background-color: #00cc66;
 }
